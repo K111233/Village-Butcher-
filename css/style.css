@@ -714,11 +714,15 @@ main:focus { outline: none; }
 .hours__today { display: inline-block; margin-left: .5rem; padding: .05rem .55rem; border-radius: 999px; background: #fff; color: var(--slate-900); font-size: .875rem; font-weight: 700; vertical-align: .1em; }
 html[data-text="xl"] .hours td { white-space: normal; }
 @media (max-width: 479px) {
-  .plate { padding-inline: 1.1rem; }
-  .hours th, .hours td { padding-inline: 0; }
+  .plate { padding-inline: 1.5rem; }
+  .hours th, .hours td { padding-inline: .4rem; }
   .hours__today { display: block; width: fit-content; margin: .3rem 0 0; }
 }
-@media (max-width: 374px) { html[data-text] .hours td { white-space: normal; } }
+@media (max-width: 374px) {
+  .plate { padding-inline: 1.15rem; }
+  .hours th, .hours td { padding-inline: .15rem; }
+  html[data-text] .hours td { white-space: normal; }
+}
 .plate__note { margin-top: 1.25rem; font-size: var(--step--1); color: var(--slate-200); }
 
 /* Map */
@@ -732,6 +736,7 @@ html[data-text="xl"] .hours td { white-space: normal; }
   .map__svg .map__label { font-size: 27px; }
   .map__svg .map__street { font-size: 22px; }
   .map__svg .map__shop text:not(.map__shopname) { font-size: 19px; }
+  .map__svg .map__far { display: none; }
 }
 .map figcaption { padding: .5rem 1.25rem; background: #fff; font-size: var(--step--1); color: var(--ink-muted); display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 0 1.5rem; border-top: 1px solid var(--line); }
 .map figcaption a { display: inline-flex; align-items: center; min-height: 44px; }

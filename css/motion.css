@@ -23,9 +23,9 @@
   .js .hero-c__title { animation: m-rise 1s var(--m-ease) .25s both; }
   .js .hero-c__where { animation: m-slide-in 1s var(--m-ease) .45s both; }
   .js .hero-c__awning::after { animation: hc-drop .9s var(--m-ease) .55s both; }
-  .js .hero-c__window { animation: m-fade .6s ease .6s both; }
-  .js .hero-c__photo { animation: m-blind 1.3s cubic-bezier(.65, 0, .35, 1) .7s both; }
-  .js .hero-c__photo img { animation: m-settle 2.4s var(--m-ease) .7s both; }
+  .js .hero-c__window { animation: m-fade .5s ease .4s both; }
+  .js .hero-c__photo { animation: m-blind 1.1s cubic-bezier(.65, 0, .35, 1) .45s both; }
+  .js .hero-c__photo img { animation: m-settle 2.4s var(--m-ease) .45s both; }
   .js .hero-c__panel > * { animation: m-rise .9s var(--m-ease) both; }
   .js .hero-c__panel > :nth-child(1) { animation-delay: .8s; }
   .js .hero-c__panel > :nth-child(2) { animation-delay: .9s; }
