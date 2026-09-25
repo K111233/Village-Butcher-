@@ -15,6 +15,7 @@ It's a plain static site with no build step, no frameworks, no cookies and no tr
 | `js/prepaint.js` | Applies the saved text size before the page draws |
 | `assets/` | Self-hosted fonts, photos and the share image |
 | `.htaccess` | HTTPS, security headers and caching for Apache or Hostinger |
+| `vercel.json` | The same security headers on Vercel, plus `noindex` so the demo isn't listed by Google. Remove the `X-Robots-Tag` line when the site goes live on Vercel. |
 
 ## Preview locally
 
